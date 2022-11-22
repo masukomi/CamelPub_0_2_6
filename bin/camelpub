@@ -1,0 +1,25 @@
+#!/usr/bin/env perl6
+
+use v6;
+use lib './lib';
+use CamelPubTool;
+
+sub MAIN (*@command) {
+  my str $config_home = "%*ENV{'HOME'}/.config/camelpub";
+
+  if CamelPubTool::setup($config_home) {
+    my $ast = CamelPubTool::Grammar::Cli.parse(@command.join(' '));
+    if $ast {
+      CamelPubTool::dispatch($ast)
+    } else {
+      CamelPubTool::help()
+    }
+  } else {
+    CamelPubTool::init_warning($config_home)
+  }
+
+  CATCH {
+    say "cli error catch ---";
+  }
+}
+

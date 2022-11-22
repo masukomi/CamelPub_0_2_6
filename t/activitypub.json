@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams"
+  ],
+  "id": "https://donpark.org/",
+  "type": "Person",
+  "following": "https://donpark.org/activitypub/following",
+  "followers": "https://donpark.org/activitypub/followers",
+  "inbox": "https://donpark.org/activitypub/inbox",
+  "outbox": "https://donpark.org/activitypub/outbox",
+  "featured": "https://donpark.org/activitypub/collections/featured",
+  "preferredUsername": "donpdonp",
+  "name": "donpdonp",
+  "summary": "<p>maker; hacker; dreamer; fediverse</p>",
+  "url": "https://donpark.org/",
+  "manuallyApprovesFollowers": false,
+  "publicKey": {
+    "id": "https://donpark.org/",
+    "owner": "https://donpark.org/",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt1KMxRfQALDpe2AbvOLq\npympq2zvbk3iyyRhpTm8sChxQIjXS74X4ZDa5HOFJUYWJPN36fM2Dtr4dAhQAvLX\nXdx6EYBw5MCMVKTP5hwq+MWgqWK+DhqDhZkhwEk5Bx6EW9ZxAjvG/dG4Vhpe7fMk\nuzgPJs/OMSmhtVQHYHgakoqZA2vXVn0+k0kN4JiXQregjdwqNBFgL7vdTF1mfzS9\nDoeS/3ZiT4Lj27GjvkZySssLpov/8yjkc2k6xJQlAv7o3CtwJlaFVKlIGLQAXQHt\n4CZFF7kZui8BL0Ujr46uWbEJENTYS/Qs/zLhM5YwoKC/kuSevGc+Ypuomdcg1DXl\ntwIDAQAB\n-----END PUBLIC KEY-----\n"
+  },
+  "tag": [],
+  "attachment": [
+    {
+      "type": "PropertyValue",
+      "name": "twitter",
+      "value": "<span class=\"h-card\"><a href=\"https://donpark.org/@donpdonp\" class=\"u-url mention\">@<span>donpdonp</span></a></span>"
+    },
+    {
+      "type": "PropertyValue",
+      "name": "pixelfed",
+      "value": "<a href=\"https://pxlfd.me/donpdonp\" rel=\"me nofollow noopener\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">pxlfd.me/donpdonp</span><span class=\"invisible\"></span></a>"
+    }
+  ],
+  "endpoints": {
+    "sharedInbox": "https://donpark.org/inbox"
+  },
+  "icon": {
+    "type": "Image",
+    "mediaType": "image/png",
+    "url": "https://6-28.mastodon.xyz/accounts/avatars/000/002/824/original/a4ff9d34001a3b96.png"
+  }
+}

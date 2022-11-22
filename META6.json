@@ -1,0 +1,19 @@
+{
+  "perl"        : "6.*",
+  "name"        :"CamelPub",
+  "version"     : "0.2.6",
+  "description" : "Interact with the Fediverse including ActivityPub and Webfinger",
+  "license"     : "Artistic-2.0",
+  "source-url"  : "https://nest.pijul.com/donpdonp/camelpub",
+  "tags"        : [ "activitypub", "webfinger" ],
+  "depends"     : ["Cro::HTTP", "URI", "DBIish", "HTML::Parser::XML"],
+  "provides"     : {
+        "CamelPubTool": "lib/CamelPubTool.pm6",
+        "CamelPub": "lib/CamelPub.pm6",
+        "CamelPub::ActivityPub": "lib/CamelPub/ActivityPub.pm6",
+        "CamelPub::Commands": "lib/CamelPub/Commands.pm6",
+        "CamelPub::Net": "lib/CamelPub/Net.pm6",
+        "CamelPub::Server": "lib/CamelPub/Server.pm6",
+        "CamelPub::WebFinger": "lib/CamelPub/WebFinger.pm6"
+  }
+}
